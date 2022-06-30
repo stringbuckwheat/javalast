@@ -23,6 +23,7 @@ public class JDBC001_connect {
 			if(conn != null) {
 				System.out.println("DB 접속 완료");
 			}
+			
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
@@ -34,5 +35,5 @@ public class JDBC001_connect {
 				}
 			}
 		}
-	}
+	} // end for main
 }
